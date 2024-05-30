@@ -20,11 +20,11 @@ const MainPage = () => {
             <HpeIcon color="brand" alignSelf="center"/>
           </Box>  
 
-          <Box direction="row" justify="center">
+          <Box direction="row" justify="center" margin={{ left: "20px", right: "20px" }}>
             <Text size="20pt" alignSelf="center" style={{fontWeight: 'bold'}}>How can ChatHPE help you today?</Text>
           </Box>  
 
-          <Box direction="row" justify="center" margin={{ top: "15px", bottom: "5px", left: "40px", right: "40px" }}>
+          <Box direction="row" justify="center" margin={{ top: "15px", bottom: "5px", left: "20px", right: "20px" }}>
             <TextInput
                 placeholder="Message ChatHPE..."
                 icon={<SendIcon id="send-icon" />}
