@@ -21,7 +21,7 @@ const MainPage = () => {
           </Box>  
 
           <Box direction="row" justify="center" margin={{ left: "20px", right: "20px" }}>
-            <Text size="20pt" alignSelf="center" style={{fontWeight: 'bold'}}>How can ChatHPE help you today?</Text>
+            <Text size="20pt" textAlign="center" style={{fontWeight: 'bold'}}>How can ChatHPE help you today?</Text>
           </Box>  
 
           <Box direction="row" justify="center" margin={{ top: "15px", bottom: "5px", left: "20px", right: "20px" }}>
