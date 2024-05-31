@@ -1,6 +1,6 @@
 import { Grommet, Box } from 'grommet'
 import { hpe } from 'grommet-theme-hpe';
-import { Header, Sidebar, Main, Footer } from './components';
+import { Header, Sidebar, Main } from './components';
 import React from "react";
 
 function App() {
@@ -16,13 +16,9 @@ function App() {
            <Header />
         </Box>
 
-        <Box direction='row' flex>
+        <Box elevation="medium" direction='row' flex>
             <Sidebar />
             <Main />
-        </Box>
-
-        <Box elevation="medium">
-          <Footer />
         </Box>
 
       </Box>

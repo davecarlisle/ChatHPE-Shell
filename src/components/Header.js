@@ -68,8 +68,7 @@ const AppHeader = () => {
               <Button label={item.label}
                       icon={item.icon}
                       key={item.label} 
-                      onClick={item.onClick}
-                      size="small"/>
+                      onClick={item.onClick}/>
             </Tip>  
           ))}
         </Nav>
